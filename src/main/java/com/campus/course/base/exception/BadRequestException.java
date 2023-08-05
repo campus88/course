@@ -1,4 +1,4 @@
-package com.campus.course.student.exception;
+package com.campus.course.base.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

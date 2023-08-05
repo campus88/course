@@ -4,7 +4,7 @@ import com.campus.course.student.dto.request.EditStudentRequest;
 import com.campus.course.student.dto.request.RegistrationRequest;
 import com.campus.course.student.dto.response.StudentResponse;
 import com.campus.course.student.entity.StudentEntity;
-import com.campus.course.student.exception.BadRequestException;
+import com.campus.course.base.exception.BadRequestException;
 import com.campus.course.student.exception.StudentAlreadyExistException;
 import com.campus.course.student.exception.StudentNotFoundException;
 import com.campus.course.student.repository.StudentRepository;
@@ -14,7 +14,6 @@ import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
